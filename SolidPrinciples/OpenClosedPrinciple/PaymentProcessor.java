@@ -33,9 +33,3 @@ class DebitCardPayment implements Payment {
         System.out.println("Processing debit card...");
     }
 }
-
-class OCPPaymentProcessor {
-    public void processPayment(Payment p) {
-        p.process();
-    }
-}
