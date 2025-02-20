@@ -1,10 +1,12 @@
 package SolidPrinciples.SingleResponsibilityPrinciple;
 
 /* 
-Violates SRP. If you want to make changes in saveReport you need to modify Report class. A class should have single responsibility.
-Here the class has to two responsibilities. Generating Report and Saving Report.
+## 🔹 S - Single Responsibility Principle (SRP)  
+**A class should have only one reason to change.**  
+👉 Each class should focus on a single responsibility to improve maintainability.
 */
 
+//violates SRP
 public class Report {
     public void generateReport() {
         System.out.println("Generating Report.....");
