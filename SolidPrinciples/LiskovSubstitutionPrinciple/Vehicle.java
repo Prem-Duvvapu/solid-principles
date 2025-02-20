@@ -1,5 +1,11 @@
 package SolidPrinciples.LiskovSubstitutionPrinciple;
 
+/*
+ ## 🔹 L - Liskov Substitution Principle (LSP)  
+**Subtypes must be substitutable for their base types.**  
+👉 Derived classes should not break the behavior of the parent class.  
+ */
+
 //violates LSP
 interface Vehicle {
     public String getEngineType();
@@ -25,7 +31,6 @@ class Bicycle implements Vehicle {
         return 2;
     }
 }
-
 
 //follows LSP
 interface VehicleLSP {
