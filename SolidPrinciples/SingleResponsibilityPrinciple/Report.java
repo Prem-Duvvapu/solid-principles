@@ -19,13 +19,13 @@ public class Report {
 
 
 //follows SRP
-class ReportGenerator {
+class ReportGeneratorSRP {
     public void generateReport() {
         System.out.println("Gnerating Report...");
     }
 }
 
-class ReportSaver {
+class ReportSaverSRP {
     public void reportSaver() {
         System.out.println("Saving Report...");
     }
